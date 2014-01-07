@@ -4,16 +4,6 @@
 #include <string>
 using namespace std;
 
-/** 
-* @file Item.h 
-* @brief Abstract Item class
-*        this header file will contain all required definitions and
-*        basic functions related with abstract Item class.
-*
-* @author Erman Yesil
-*
-* @date 12/22/2012
-*/
 
 class Item {
 
@@ -25,15 +15,9 @@ private:
 	double price;
 
 public:
-	/**
-	 * @brief Constructor
-	 * @param name name of the item as string
-	 * @param price price of the item as double
-	 */
+	
     Item(string name, double price);
-	/**
-	 * @brief Overloading Constructor
-	 */
+	
     Item(){};
 
     // setter functions
